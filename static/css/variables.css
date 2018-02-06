@@ -1,0 +1,53 @@
+:root{
+    --primary: #2e7d32;
+    --secondary: #f44336;
+    --dark: #005005;
+    --light: #60ad5e;
+    --secondary-dark: #ba000d;
+    --primary-font: 'Roboto', sans-serif;
+    --secondary-font: 'Khula', sans-serif;
+}
+.primary{
+    color: var(--primary);
+}
+.primary-color{
+    color: var(--primary);
+}
+.primary-bg{
+    background-color: var(--primary);
+}
+
+.secondary{
+    color: var(--secondary);
+}
+.secondary-color{
+    color: var(--secondary);
+}
+.secondary-bg{
+    background-color: var(--secondary);
+}
+.dark-color{
+    color: var(--dark);
+}
+.dark-bg{
+    background-color: var(--dark);
+}
+.light-color{
+    color: var(--light);
+}
+.light-bg{
+    background-color: var(--light);
+}
+
+.secondary-dark-color{
+    color: var(--secondary-dark);
+}
+.secondary-dark-bg{
+    background-color: var(--secondary-dark);
+}
+.primary-font{
+    font-family: var(--primary-font);
+}
+.secondary-font{
+    font-family: var(--secondary-font);
+}

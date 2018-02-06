@@ -1,0 +1,56 @@
+backend:
+  name: github
+  repo: Soulmatters/nuxt-sm # Change to your repo
+  url: http://localhost:3000
+
+media_folder: "static/uploads"
+
+collections: # A list of collections the CMS should be able to edit
+  - name: "posts" # Used in routes, ie.: /admin/collections/:slug/edit
+    label: "Post" # Used in the UI, ie.: "New Post"
+    folder: "content/posts"
+    slug: "{{slug}}"
+    create: true # Allow users to create new documents in this collection
+    fields: # The fields each document in this collection have
+      - {label: "Title", name: "title", widget: "string", tagname: "h1"}
+      - {label: "Publish Date", name: "date", widget: "datetime", format: "YYYY-MM-DD hh:mma"}
+      - {label: "Description", name: "description", widget: "text"}
+      - {label: "Cover Image", name: "image", widget: "image", required: false, tagname: ""}
+      - {label: "Card Image", name: "card", widget: "image", required: false, tagname: ""}
+      - {label: "Body", name: "body", widget: "markdown"}
+    meta:
+      - {label: "SEO Description", name: "description", widget: "text"}
+
+  - name: "portfolio" # Used in routes, ie.: /admin/collections/:slug/edit
+    label: "Portfolio" # Used in the UI, ie.: "New Post"
+    folder: "content/portfolio"
+    slug: "{{slug}}"
+    create: true # Allow users to create new documents in this collection
+    fields: # The fields each document in this collection have
+      - {label: "Title", name: "title", widget: "string", tagname: "h1"}
+      - {label: "Description", name: "description", widget: "text", tagname: "span"}
+      - label: "Servicii"
+        name: "servicii"
+        widget: "list"
+        fields:
+          - {label: "Serviciu", name: "serviciu", widget: "string", default: "Introdu serviciu"}
+      - {label: "Cover Image", name: "image", widget: "image", required: false, tagname: ""}
+      - {label: "Card Image", name: "card", widget: "image", required: false, tagname: ""}
+      - {label: "Mockup Image", name: "mockup", widget: "image", required: false, tagname: ""}
+      - {label: "Body", name: "body", widget: "markdown"}
+    meta:
+      - {label: "SEO Description", name: "description", widget: "text"}
+      
+          
+  - name: "pages"
+    label: "Pages"
+    files:
+      - file: "/content/pages/_home.md"
+        label: "Home Page"
+        name: "home"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: Subtitle, name: subtitle, widget: string}
+          - {label: Image, name: image, widget: image}
+  
+             
