@@ -19,7 +19,7 @@
   </gmap-map>
       </div> -->
       <div class="contact-data">
-        <form name="contact" netlify>
+        <form name="test" netlify>
   <p>
     <label>Your Name: <input type="text" name="name"></label>   
   </p>
