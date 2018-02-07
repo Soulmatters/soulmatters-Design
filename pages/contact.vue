@@ -23,7 +23,7 @@
       </div>
       <div class="contact-form">
         <template>
-  <form  id="form" action="/" name="contact" class="primary-font" netlify>
+  <v-form  v-model="valid" id="form" name="contact" class="primary-font" netlify>
     <v-text-field
       label="Name"
       name="name"
@@ -40,9 +40,14 @@
       required
     ></v-text-field>
     <v-text-field name="message" multi-line label="Message" v-model="message" :rules="messageRules" :counter="50" required></v-text-field>
-     <v-btn type="submit"
-      >Submit</v-btn>
-  </form>
+    <v-btn
+      @click="submit"
+      :disabled="!valid"
+    >
+      submit
+    </v-btn>
+    <v-btn @click="clear">clear</v-btn>
+  </v-form>
 </template>
       </div>
       </div>
@@ -89,7 +94,23 @@ h1{
         (v) => v && v.length >= 50 || 'Please explain yourself better :) !'
       ]
      
-    })
+    }),
+     methods: {
+      submit () {
+        if (this.$refs.form.validate()) {
+          // Native form submission is not yet supported
+          axios.post('/sites/infallible-mirzakhani-8a4f90/forms', {
+            name: this.name,
+            email: this.email,
+            select: this.select,
+            checkbox: this.checkbox
+          })
+        }
+      },
+      clear () {
+        this.$refs.form.reset()
+      }
+    }
  
   }
 </script>
