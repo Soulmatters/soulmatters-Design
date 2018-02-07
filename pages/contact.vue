@@ -21,9 +21,10 @@
       <div class="contact-data"></div>
       <div class="contact-form">
         <template>
-  <v-form v-model="valid" class="primary-font" netlify>
+  <v-form v-model="valid" name="contact" class="primary-font" netlify>
     <v-text-field
       label="Name"
+      name="name"
       v-model="name"
       :rules="nameRules"
       :counter="20"
@@ -31,13 +32,14 @@
     ></v-text-field>
     <v-text-field
       label="E-mail"
+      name="email"
       v-model="email"
       :rules="emailRules"
       required
     ></v-text-field>
-    <v-text-field multi-line label="Message" v-model="message" :rules="messageRules" :counter="50" required></v-text-field>
-     <v-btn
-      @click="submit">Submit</v-btn>
+    <v-text-field name="message" multi-line label="Message" v-model="message" :rules="messageRules" :counter="50" required></v-text-field>
+     <v-btn type="submit"
+      >Submit</v-btn>
   </v-form>
 </template>
       </div>
