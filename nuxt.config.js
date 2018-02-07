@@ -1,5 +1,5 @@
 module.exports = {
-  loading: { color: 'cyan' },
+  loading: { color: '#005005', height:'10px' },
   modules: ["nuxtent", "nuxt-netlify-cms"],
   nuxtent: {
     content: [
@@ -62,6 +62,7 @@ module.exports = {
     ],
     link: [
       {rel:'stylesheet', href: 'https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons'},
+      {rel:'stylesheet', href: 'https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'},
       {rel:'stylesheet', href: 'https://fonts.googleapis.com/css?family=Khula:400,800'},
       {rel:'stylesheet', href: 'https://unpkg.com/vuetify/dist/vuetify.min.css'},
       {rel:'stylesheet', href: '/css/variables.css'}

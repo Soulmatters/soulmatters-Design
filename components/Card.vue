@@ -29,6 +29,7 @@
     props:["data"]  
   
   }
+
 </script>
 <style scoped>
 *{

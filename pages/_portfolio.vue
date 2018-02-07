@@ -13,6 +13,7 @@
 
 <script>
 export default {
+   scrollToTop: true,
   async asyncData ({ app, route }) {
     return {
       post: await app.$content('/portfolio').get(route.path)

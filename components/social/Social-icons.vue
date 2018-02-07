@@ -30,7 +30,7 @@ export default {
         color: '#1da1f2',
         height: 50,
         width: 50,
-        link: "https://twitter.com/DesignSM4U"
+        link: "https://twitter.com/SMDesignRo"
         
         },
         google: {

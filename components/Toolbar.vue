@@ -1,7 +1,8 @@
 <template>
 <vue-app app>
 
-  <v-toolbar 
+  <v-toolbar  scroll-off-screen
+      scroll-target="#scrolling-techniques"
       dark  
       height="80"
       class="primary-bg"
@@ -16,7 +17,7 @@
     </v-toolbar-items>
    
   </v-toolbar>
-    <v-navigation-drawer absolute temporary mobile-break-point="1200" height="100%" floating   class="primary-bg" app v-model="drawer">
+    <v-navigation-drawer dark absolute temporary mobile-break-point="1200" height="100vh" floating id="drawer"  class="primary-bg" app v-model="drawer">
         <v-toolbar    
       class="dark-bg"    
       height="80">
@@ -39,8 +40,9 @@
         </v-list>
   </v-navigation-drawer>
 
-   <v-content>
-      <slot/>
+   <v-content id="scrolling-techniques"  style="height: 100vh;"
+      class="scroll-y">
+      <slot />
   </v-content>
 </vue-app>
 </template>
@@ -55,12 +57,12 @@ export default {
       return {
         drawer: false,
          items: [
-          { title: 'Home', icon: 'dashboard', link:'/#' },
-          { title: 'smd team', icon: 'dashboard', link:'/team' },
-          { title: 'portfolio', icon: 'dashboard', link:'/portfolios' },
-          { title: 'how do we work', icon: 'dashboard', link:'/how-do-we-work' },
-          { title: 'Contact', icon: 'dashboard', link:'/contact' },
-          { title: 'Blog', icon: 'dashboard', link:'/blog' }
+          { title: 'Home', icon: 'home', link:'/#' },
+          { title: 'SMD Team', icon: 'group', link:'/team' },
+          { title: 'Portfolio', icon: 'photo_library', link:'/portfolios' },
+          { title: 'How do we work', icon: 'work', link:'/how-do-we-work' },
+          { title: 'Contact', icon: 'contact_phone', link:'/contact' },
+          { title: 'Blog', icon: 'library_books', link:'/blog' }
         ]
       }
   },
@@ -78,6 +80,9 @@ export default {
 </script>
 
 <style scoped>
+   #drawer{
+     z-index: 100;
+   }
    *{
     text-decoration: none;   
     }

@@ -2,7 +2,8 @@
 <template>
 
   <div>
-<Intro-home/>
+   
+<Intro-home />
 <Fast/>
 <Portfolio-list :items="portfolio.slice(0,4)"></Portfolio-list>
 <div class="blog-card primary-bg">
@@ -27,12 +28,14 @@ export default {
 
     }
   },
+   
   components:{
     IntroHome,
     Fast,
     PortfolioList,
     Card
-  }
+  },
+  
 }
 </script>
 <style scoped>

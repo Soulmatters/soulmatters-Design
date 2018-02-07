@@ -21,6 +21,22 @@ collections: # A list of collections the CMS should be able to edit
     meta:
       - {label: "SEO Description", name: "description", widget: "text"}
 
+
+  # - name: "team" # Used in routes, ie.: /admin/collections/:slug/edit
+  #   label: "Team" # Used in the UI, ie.: "New Post"
+  #   folder: "content/team"
+  #   slug: "{{slug}}"
+  #   create: true # Allow users to create new documents in this collection
+  #   fields: # The fields each document in this collection have
+  #     - {label: "Title", name: "title", widget: "string", tagname: "h1"}
+  #     - {label: "Description", name: "description", widget: "text"}
+  #     - {label: "Cover Image", name: "image", widget: "image", required: false, tagname: ""}
+  #     - {label: "Card Image", name: "card", widget: "image", required: false, tagname: ""}
+  #     - {label: "Body", name: "body", widget: "markdown"}
+  #   meta:
+  #     - {label: "SEO Description", name: "description", widget: "text"}
+
+
   - name: "portfolio" # Used in routes, ie.: /admin/collections/:slug/edit
     label: "Portfolio" # Used in the UI, ie.: "New Post"
     folder: "content/portfolio"
