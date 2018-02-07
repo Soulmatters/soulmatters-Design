@@ -23,7 +23,7 @@
       </div>
       <div class="contact-form">
         <template>
-  <v-form v-model="valid" id="form" name="contact" class="primary-font" netlify>
+  <form  id="form" name="contact" class="primary-font" netlify>
     <v-text-field
       label="Name"
       name="name"
@@ -42,7 +42,7 @@
     <v-text-field name="message" multi-line label="Message" v-model="message" :rules="messageRules" :counter="50" required></v-text-field>
      <v-btn type="submit"
       >Submit</v-btn>
-  </v-form>
+  </form>
 </template>
       </div>
       </div>
