@@ -23,7 +23,7 @@
       </div>
       <div class="contact-form">
         <template>
-  <v-form v-model="valid" name="contact" class="primary-font" netlify>
+  <v-form v-model="valid" id="form" name="contact" class="primary-font" netlify>
     <v-text-field
       label="Name"
       name="name"
@@ -89,15 +89,8 @@ h1{
         (v) => v && v.length >= 50 || 'Please explain yourself better :) !'
       ]
      
-    }),
-    methods: {
-      submit () {
-      this.$refs.form.submit()
-      },
-      clear () {
-        this.$refs.form.reset()
-      }
-    }
+    })
+ 
   }
 </script>
 
