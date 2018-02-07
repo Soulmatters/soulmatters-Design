@@ -44,7 +44,7 @@ module.exports = {
   netlifyCms: {
     adminPath: "admin"
   },
-  plugins: ['~plugins/vuetify.js'],
+  plugins: ['~plugins/vuetify.js','~plugins/axios.js'],
   build: {
     vendor:['axios', 'vuetify'],
     extractCSS: true,

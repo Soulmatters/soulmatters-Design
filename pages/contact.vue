@@ -23,7 +23,7 @@
       </div>
       <div class="contact-form">
         <template>
-  <v-form  v-model="valid" id="form" name="contact" class="primary-font" netlify>
+  <v-form  v-model="valid" ref="form" lazy-validation class="primary-font">
     <v-text-field
       label="Name"
       name="name"
@@ -75,6 +75,7 @@ h1{
 </style>
 
 <script>
+import axios from 'axios'
   export default {
     data: () => ({
       valid: true,
