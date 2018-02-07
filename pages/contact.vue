@@ -18,7 +18,22 @@
     ></gmap-marker>
   </gmap-map>
       </div> -->
-      <div class="contact-data"></div>
+      <div class="contact-data">
+        <form name="contact" netlify>
+  <p>
+    <label>Your Name: <input type="text" name="name"></label>   
+  </p>
+  <p>
+    <label>Your Email: <input type="email" name="email"></label>
+  </p>
+  <p>
+    <label>Message: <textarea name="message"></textarea></label>
+  </p>
+  <p>
+    <button type="submit">Send</button>
+  </p>
+</form>
+      </div>
       <div class="contact-form">
         <template>
   <v-form v-model="valid" name="contact" class="primary-font" netlify>
