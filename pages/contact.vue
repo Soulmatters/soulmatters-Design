@@ -23,7 +23,7 @@
       </div>
       <div class="contact-form">
         <template>
-  <form  id="form" name="contact" class="primary-font" netlify>
+  <form  id="form" action="/" name="contact" class="primary-font" netlify>
     <v-text-field
       label="Name"
       name="name"
