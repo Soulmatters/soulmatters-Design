@@ -23,7 +23,7 @@
       </div>
       <div class="contact-form">
         <template>
-  <v-form  v-model="valid" ref="form" lazy-validation class="primary-font">
+  <v-form  v-model="valid" class="primary-font" name="contact" action="" method="post" netlify>
     <v-text-field
       label="Name"
       name="name"
@@ -40,13 +40,13 @@
       required
     ></v-text-field>
     <v-text-field name="message" multi-line label="Message" v-model="message" :rules="messageRules" :counter="50" required></v-text-field>
+    <input type="hidden" name="form-name" value="contact" />
     <v-btn
-      @click="submit"
+      type="submit"
       :disabled="!valid"
     >
       submit
     </v-btn>
-    <v-btn @click="clear">clear</v-btn>
   </v-form>
 </template>
       </div>
@@ -75,7 +75,6 @@ h1{
 </style>
 
 <script>
-import axios from 'axios'
   export default {
     data: () => ({
       valid: true,
@@ -96,22 +95,7 @@ import axios from 'axios'
       ]
      
     }),
-     methods: {
-      submit () {
-        if (this.$refs.form.validate()) {
-          // Native form submission is not yet supported
-          axios.post('/sites/infallible-mirzakhani-8a4f90/forms', {
-            name: this.name,
-            email: this.email,
-            select: this.select,
-            checkbox: this.checkbox
-          })
-        }
-      },
-      clear () {
-        this.$refs.form.reset()
-      }
-    }
+    
  
   }
 </script>
