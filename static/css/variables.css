@@ -71,3 +71,7 @@ html > ::-webkit-scrollbar {
 .secondary-font{
     font-family: var(--secondary-font);
 }
+
+.input-group__input{
+    border-bottom:solid 1px #212121;
+}

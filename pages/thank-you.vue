@@ -2,7 +2,7 @@
   <div>
       <div class="grid">
       <div class="content"><h1 class="display-4 secondary-font">Thank you!</h1>
-        <div class="display-2 primary-font">We recieved your message and we are making sure you will get the response you need as soon as posible!</div>
+        <div class="display-2 primary-font">We recieved your message and we are making sure you will get the response you need as soon as possible!</div>
         <v-btn class="white primary-font" large flat nuxt round outline to="/">Go to the front page</v-btn>
   </div>
   </div>

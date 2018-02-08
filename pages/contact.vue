@@ -22,8 +22,12 @@
        
       </div>
       <div class="contact-form">
-        <template>
-  <v-form  v-model="valid" class="primary-font" name="contact" action="/thank-you" method="post" netlify>
+  <v-form color="grey darken-4" v-model="valid"  name="contact" action="/thank-you" method="post" netlify>
+   <v-card  flat>
+      <v-container fluid>
+          <v-layout row>
+            <v-flex xs12>
+      <v-card-text>
     <v-text-field
       label="Name"
       name="name"
@@ -32,23 +36,30 @@
       :counter="20"
       required
     ></v-text-field>
-    <v-text-field
+    <v-text-field 
       label="E-mail"
       name="email"
       v-model="email"
       :rules="emailRules"
       required
+      dark
     ></v-text-field>
     <v-text-field name="message" multi-line label="Message" v-model="message" :rules="messageRules" :counter="50" required></v-text-field>
     <input type="hidden" name="form-name" value="contact" />
     <v-btn
       type="submit"
       :disabled="!valid"
+      elevated
     >
       submit
     </v-btn>
+    
+      </v-card-text>
+      </v-flex>
+          </v-layout>
+        </v-container>
+   </v-card>
   </v-form>
-</template>
       </div>
       </div>
   </div>
@@ -58,17 +69,38 @@
 .grid{
   display: grid;
   grid-template-columns: 1fr 900px 1fr;
-  justify-content: center;
+  grid-template-rows: 100px auto;
   align-items: center;
+  min-height: 100vh;
+  grid-template-areas: 
+    "title title title"
+    ". form .";
+    padding:20px;
+}
+@media (max-width:931px){
+  .grid{
+    grid-template-columns: auto;
+    grid-template-areas: 
+    "title"
+    "form ";
+  }
+  .contact-form{
+    grid-column: form;
+  }
 }
 .contact-form{
-  grid-column: 2/3;
+  grid-area: form;
   background: #fff;
   padding: 20px;
+  margin:20px;
+  justify-self: center;
+  max-width: 800px;
+  width: 100%;
+  box-sizing: border-box;
 
 }
 h1{
-  grid-column: span 3;
+  grid-area: title;
   justify-self: center;
 
 }
