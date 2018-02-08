@@ -9,7 +9,7 @@ collections: # A list of collections the CMS should be able to edit
   - name: "posts" # Used in routes, ie.: /admin/collections/:slug/edit
     label: "Post" # Used in the UI, ie.: "New Post"
     folder: "content/posts"
-    slug: "{{slug}}"
+    slug: "/blog/{{year}}/{{month}}/{{slug}}"
     create: true # Allow users to create new documents in this collection
     fields: # The fields each document in this collection have
       - {label: "Title", name: "title", widget: "string", tagname: "h1"}
