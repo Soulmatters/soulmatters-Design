@@ -1,8 +1,8 @@
 <template>
 <vue-app app>
 
-  <v-toolbar  scroll-off-screen
-      scroll-target="#scrolling-techniques"
+  <v-toolbar  
+     
       dark  
       height="80"
       class="primary-bg"
@@ -40,8 +40,7 @@
         </v-list>
   </v-navigation-drawer>
 
-   <v-content id="scrolling-techniques"  style="height: 100vh;"
-      class="scroll-y">
+   <v-content id="scrolling-techniques">
       <slot />
   </v-content>
 </vue-app>
