@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: Soulmatters/nuxt-sm # Change to your repo
+  repo: Soulmatters/soulmatters-Design # Change to your repo
   url: http://localhost:3000
 
 media_folder: "static/uploads"
