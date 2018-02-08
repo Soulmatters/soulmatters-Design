@@ -1,7 +1,7 @@
 <template>
-
 <div id="post">
-    <v-parallax class="img" :src="post.image.replace(/static\//gi, '')"></v-parallax>
+
+    <v-parallax v-if="post.image !== undefined" class="img" :src="post.image.replace(/static\//gi, '')"></v-parallax>
     <h1 class="display-4">{{ post.title }}</h1>
 
     <div class="blur" ></div>

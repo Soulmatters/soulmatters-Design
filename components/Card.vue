@@ -5,7 +5,7 @@
     <v-flex>
       <nuxt-link :to="post.permalink">
       <v-card hover color="white" class="black--text" style="margin:20px; max-width: 300px; width:100%;">
-        <v-card-media :src="post.image.replace(/static\//gi, '')" height="200px">
+        <v-card-media   v-if="post.image !== undefined" :src="post.image.replace(/static\//gi, '')" height="200px">
         </v-card-media>
         <v-card-title primary-title>
           <div>
