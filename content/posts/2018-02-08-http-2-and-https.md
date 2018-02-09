@@ -1,7 +1,15 @@
 ---
 title: 'HTTP/2 and HTTPS '
 date: '2018-02-08 06:01pm'
-description: HTTP/2 and HTTPS - the speed and security of your online experience
+description: >-
+  HTTP/2 and HTTPS - the speed and security of your online experience.
+
+  HTTP/2 compared with HTTP shows a noticeable improvement in site loading speed
+  and efficient data compression.
+
+  HTTP/2 allows the server to send packages of data to the browser before it
+  requests them. The request reloading cycle will not be resumed every time, and
+  so the access to the site is faster.
 image: /static/uploads/http2-ssl.jpg
 card: /static/uploads/http2-ssl-400.jpg
 ---
