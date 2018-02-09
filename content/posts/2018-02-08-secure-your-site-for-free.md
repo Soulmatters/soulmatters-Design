@@ -4,6 +4,10 @@ date: '2018-02-08 05:58pm'
 description: >-
   The Letsencrypt.org Certified Authority (CA) platform provides the proper ways
   for your site to have a free SSL certificate.
+
+  Letsencrypt.org is an open-source platform on which the continuity of the road
+  depends on issuing free SSL certificates. Let's hope there will be other
+  platforms with the same goal, which will help to make the Internet safer.
 image: /static/uploads/ssl.jpg
 card: /static/uploads/ssl-300px.jpg
 ---
