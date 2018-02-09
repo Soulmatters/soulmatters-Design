@@ -127,7 +127,15 @@ h1{
       ]
      
     }),
-    
+     head () {
+    return {
+      title: `Contact | SM-Design.ro`,
+      meta: [
+        { hid: 'description', name: 'description', content: 'Contact us for a web development inqury. We will get in touch as soon as possible' },
+        { hid: 'og:image', property: 'og:image', content: '/contact/contact.jpg' },
+      ]
+    }
+  },
  
   }
 </script>

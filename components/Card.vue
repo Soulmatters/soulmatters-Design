@@ -72,7 +72,10 @@
       #grid{
         grid-template-columns: auto;
       }
-       .white{max-width: 400px;margin:20px;}
+       .white{
+         max-width: 400px;
+         margin:20px;
+         }
        h1{
          font-size: 50px;
        }
