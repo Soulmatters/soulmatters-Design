@@ -113,6 +113,15 @@ I can fulfill all my client's requirements in difficult projects. I help them in
         }
       ]
     }
-  }
+  },
+   head () {
+    return {
+      title: `Our team | SM-Design.ro`,
+      meta: [
+        { hid: 'description', name: 'description', content: 'SoulMatters Design it\'s a company that offers web design services. We use the latest technologies in web development and we successfully meet the most demanding requirements of our customers.' },
+        { hid: 'og:image', property: 'og:image', content: '/home/space.jpg' },
+      ]
+    }
+  },
 }
 </script>

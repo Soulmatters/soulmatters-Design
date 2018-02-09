@@ -1,11 +1,11 @@
 <template>
 <div id="grid">
    <div  v-for="post in data" :key="post.title">
-  <v-layout>
-    <v-flex>
-      <nuxt-link :to="post.permalink">
-      <v-card hover color="white" class="black--text" style="margin:20px; max-width: 300px; width:100%;">
-        <v-card-media   v-if="post.image !== undefined" :src="post.image.replace(/static\//gi, '')" height="200px">
+  
+      <no-ssr>
+      <nuxt-link :to="post.permalink" class="card-style">
+      <v-card hover color="white" class="black--text">
+        <v-card-media   v-if="post.image !== undefined" :src="post.image.replace(/static\//gi, '')" height="300px">
         </v-card-media>
         <v-card-title primary-title>
           <div>
@@ -18,8 +18,8 @@
         </v-card-actions>
       </v-card>
       </nuxt-link>
-    </v-flex>
-  </v-layout>
+      </no-ssr>
+
 </div>
 </div>
 </template>
@@ -46,17 +46,35 @@
      border-radius: 7px;
     border-color: var(--secondary) !important;
     }
+   
     h3{
       font-size: 25px;
       font-family: 'Khula', sans-serif;
     }
+    .card-style{
+      margin:20px; max-width: 400px; width:100%;
+    }
     #grid{
-      display: flex;
-      flex-flow: wrap row;
+      display: grid;
       justify-content: center;
-      max-width: 1200px;
+      max-width: 1300px;
       margin:0px auto;
       padding: 50px 0;
+      grid-template-columns: auto auto auto;
+      grid-gap: 20px;
     }
-    
+    @media (max-width:1297px){
+      #grid{
+        grid-template-columns: 400px 400px;
+      }
+    }
+        @media (max-width:887px){
+      #grid{
+        grid-template-columns: auto;
+      }
+       .white{max-width: 400px;margin:20px;}
+       h1{
+         font-size: 50px;
+       }
+    }
 </style>

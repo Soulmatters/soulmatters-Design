@@ -132,6 +132,15 @@ export default {
       {title:"Maintenance", text:"We take care on our client website. We watch for a proper , server configuration, hosting and setting server to adapt it for a particular traffic.", image:"/uploads/maintenance.png"},
     ]
     }
-  }
+  },
+   head () {
+    return {
+      title: `How do we work | SM-Design.ro`,
+      meta: [
+        { hid: 'description', name: 'description', content: 'We analyze business profile and try to understand the direction client wants to follow. Maybe an online store, a presentation website or just optimizing and securing services for an existing project.' },
+        { hid: 'og:image', property: 'og:image', content: '/uploads/kokiengros-mockup.jpg' },
+      ]
+    }
+  },
 }
 </script>

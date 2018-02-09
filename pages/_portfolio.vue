@@ -19,6 +19,15 @@ export default {
       post: await app.$content('/portfolio').get(route.path)
     }
   },
+   head () {
+    return {
+      title: `${this.post.title} | SM-Design.ro`,
+      meta: [
+        { hid: 'description', name: 'description', content: this.post.description },
+        { hid: 'og:image', property: 'og:image', content: this.post.image.replace(/static\//gi, '') },
+      ]
+    }
+  },
  
 }
 </script>

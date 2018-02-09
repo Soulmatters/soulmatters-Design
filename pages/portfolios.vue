@@ -15,6 +15,15 @@ export default {
   },
    components:{
     PortfolioList
-  }
+  },
+   head () {
+    return {
+      title: `Our portfolio | SM-Design.ro`,
+      meta: [
+        { hid: 'description', name: 'description', content: 'Take a look at what we did and then just contact us for a quotation for your business next level.' },
+        { hid: 'og:image', property: 'og:image', content: '/uploads/home-electric-mockup.jpg' },
+      ]
+    }
+  },
 }
 </script>

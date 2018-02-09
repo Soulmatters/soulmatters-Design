@@ -31,6 +31,11 @@ export default {
     width:100vw;
     position: relative;
   }
+  @media (max-width:1175){
+    h2{
+      margin:0;
+    }
+  }
   span{
 
     grid-area: image;
@@ -50,12 +55,21 @@ export default {
     font-size: 70px;
     color:#fff;
     font-family: 'Khula', sans-serif;
-    line-height: 0;
+    line-height: 1;
     
   }
-  @media(min-width:1000px){
+  @media(min-width:1176px){
     h2{
       margin-right:-400px;
     }
   }
+     @media (max-width:887px){
+     
+       h1{
+         font-size: 80px;
+       }
+       h2{
+         font-size: 60px;
+       }
+    }
 </style>

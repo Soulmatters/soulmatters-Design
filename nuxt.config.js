@@ -1,7 +1,11 @@
 module.exports = {
   loading: { color: '#005005', height:'10px' },
-  modules: ["nuxtent", "nuxt-netlify-cms"],
-  nuxtent: {
+  modules: ["nuxtent", "nuxt-netlify-cms", '@nuxtjs/pwa',],
+  manifest: {
+    name: 'SM-Design.ro',
+    lang: 'ro',   
+  },
+   nuxtent: {
     content: [
       ["posts", {
         page: '/_post',

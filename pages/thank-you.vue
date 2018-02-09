@@ -25,3 +25,16 @@
     margin-top:40px;
 }
 </style>
+<script>
+export default {
+   head () {
+    return {
+      title: `Thank you | SM-Design.ro`,
+      meta: [
+        { hid: 'description', name: 'description', content: '>We recieved your message and we are making sure you will get the response you need as soon as possible!' },
+        { hid: 'og:image', property: 'og:image', content: '/home/space.jpg' },
+      ]
+    }
+  },
+}
+</script>

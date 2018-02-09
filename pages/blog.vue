@@ -36,6 +36,15 @@ export default {
     Card,
     Intro
   },
+   head () {
+    return {
+      title: `Blog | SM-Design.ro`,
+      meta: [
+        { hid: 'description', name: 'description', content: 'This is the blog page. You can find articles about web dev, design and such.' },
+        { hid: 'og:image', property: 'og:image', content: '/blog/blog.jpg' },
+      ]
+    }
+  },
  
 }
 </script>

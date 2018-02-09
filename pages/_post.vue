@@ -2,8 +2,9 @@
 <div id="post">
 
     <v-parallax v-if="post.image !== undefined" class="img" :src="post.image.replace(/static\//gi, '')"></v-parallax>
-    <h1 class="display-4">{{ post.title }}</h1>
-
+    <div class="heading">
+    <h1 class="display-4 small">{{ post.title }}</h1>
+</div>
     <div class="blur" ></div>
 		<div class="article " v-html="post.body" />
 </div>
@@ -37,12 +38,17 @@ export default {
   grid-area: intro;
 
   }
-  h1{
+ .heading{
     grid-area: intro;
     color:#fff;
     font-family: 'Khula', sans-serif;
     text-align: center;
     z-index: 99;
+    background: rgba(46, 125, 50, .8);
+    padding: 40px 20px;
+    max-width: 900px;
+    margin:0 auto;
+    align-self: flex-end;
 
 
   }
@@ -56,6 +62,19 @@ export default {
       justify-content: center;
       align-items: center;
     
+  }
+  @media (max-width:913px){
+     #post{
+    grid-template-columns: auto;
+    grid-template-areas:
+      "intro "
+      "body ";
+     }
+  }
+  @media (max-width:485px){
+    h1.small{
+      font-size: 70px !important;
+    }
   }
   .article{
     grid-area: body;

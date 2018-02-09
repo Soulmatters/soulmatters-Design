@@ -9,7 +9,7 @@
 <div class="blog-card primary-bg">
     <h2 class="display-3 primary-font">Latest blog posts</h2>
 
-      <Card :data="posts.slice(0,4)" ></Card>
+      <Card :data="posts.slice(0,3)" ></Card>
       
     </div>
   </div>
