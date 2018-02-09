@@ -4,6 +4,10 @@ date: '2018-02-08 04:59pm'
 description: >-
   Service Worker belongs to Progressive Web Applications and it is a script
   running in the browser in the background. 
+
+  Service Worker includes: Push Notification, background sync, and the ability
+  to access a site you have navigated in the past even when you are offline. A
+  site that you can access even if you are disconnected from the Internet. 
 image: /static/uploads/service-worker.jpg
 card: /static/uploads/service-worker-400.jpg
 ---
