@@ -5,7 +5,7 @@ servicii:
   - serviciu: Web Design
   - serviciu: Wordpress
   - serviciu: Magazin online
-image: /static/uploads/yves.fashion_(pc).png
-card: /static/uploads/kokiengros-intro.jpg
+image: /static/uploads/meteorit.jpg
+mockup: /static/uploads/sm-mockup.jpg
 ---
 Yves
