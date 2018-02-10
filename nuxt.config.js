@@ -1,6 +1,6 @@
 module.exports = {
   loading: { color: '#2e7d32', height:'10px' },
-  modules: [ '@nuxtjs/pwa','@nuxtjs/component-cache', "nuxtent", "nuxt-netlify-cms"  ],
+  modules: [ '@nuxtjs/offline', "nuxtent", "nuxt-netlify-cms"  ],
   manifest: {
     name: 'SM-Design.ro',
     lang: 'ro',   
