@@ -78,9 +78,7 @@ module.exports = {
       {rel:'stylesheet', href: '/css/variables.css'}
     ]
   },
-  router: {
-    middleware: ['https']
-  },
+
   render: {
     static: {
       maxAge: '1y',
