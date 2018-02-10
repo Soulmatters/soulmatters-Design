@@ -5,12 +5,18 @@
       <p>We focus on website's loading speed, especially on mobile devices, which are already over 50% of your future customers.</p>
       <nuxt-link to="/"><v-btn round outline large class="btn" flat>Discover</v-btn></nuxt-link>
     </span>
-    <img src="/home/home-electric.png" alt="">
+    <img v-lazy="image" alt="">
   </div>
 </template>
 
 <script>
-
+export default {
+    data(){
+        return{
+            image: "/home/home-electric.png"
+        }
+    }
+}
 
 </script>
 <style scoped>

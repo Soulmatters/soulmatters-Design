@@ -5,9 +5,16 @@
       <h2>Your web application is now accessible to over 5 billion devices</h2>
           <nuxt-link to="/"><v-btn round outline large class="btn" flat>Discover</v-btn></nuxt-link>
       </span>
-        <img src="/home/space.jpg" alt="">
+        <img v-lazy="image" alt="">
   </div>
 </template>
+<script>
+export default {
+  data(){return{
+      image: "/home/space.jpg"
+  }}
+}
+</script>
 
 
 
@@ -15,7 +22,7 @@
 div{
     display: grid;
     grid-template-rows: auto;
-    grid-template-columns: auto auto;
+    grid-template-columns: auto minmax(300, 1fr);
     grid-template-areas: 
     "title image";
     justify-content: center;
