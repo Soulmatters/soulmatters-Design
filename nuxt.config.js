@@ -56,8 +56,7 @@ module.exports = {
   build: {
    
     vendor:['axios', 'vuetify'],
-    extractCSS: false,
-    publicPath: '_nuxt'
+    extractCSS: false
     
   },
   css: [
