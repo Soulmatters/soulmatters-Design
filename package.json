@@ -4,6 +4,7 @@
   "description": "Easy Netlify CMS integration with nuxt.js example",
   "dependencies": {
     "@nuxtjs/axios": "^4.3.0",
+    "@nuxtjs/component-cache": "^1.1.1",
     "@nuxtjs/pwa": "^1.0.2",
     "axios": "^0.17.1",
     "nuxt": "1.0.0-rc11",

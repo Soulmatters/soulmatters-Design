@@ -1,6 +1,6 @@
 module.exports = {
   loading: { color: '#2e7d32', height:'10px' },
-  modules: ["nuxtent", "nuxt-netlify-cms", '@nuxtjs/pwa',],
+  modules: ["nuxtent", "nuxt-netlify-cms", '@nuxtjs/pwa',  '@nuxtjs/component-cache'],
   manifest: {
     name: 'SM-Design.ro',
     lang: 'ro',   
@@ -77,6 +77,19 @@ module.exports = {
       {rel:'stylesheet', href: 'https://unpkg.com/vuetify/dist/vuetify.min.css'},
       {rel:'stylesheet', href: '/css/variables.css'}
     ]
+  },
+  router: {
+    middleware: ['https']
+  },
+  render: {
+    static: {
+      maxAge: '1y',
+      setHeaders (res, path) {
+        if (path.includes('sw.js')) {
+          res.setHeader('Cache-Control', 'public, max-age=0')
+        }
+      }
+    }
   }
 
 };

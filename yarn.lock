@@ -11,6 +11,12 @@
     debug "^3.1.0"
     whatwg-url "^6.4.0"
 
+"@nuxtjs/component-cache@^1.1.1":
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/@nuxtjs/component-cache/-/component-cache-1.1.1.tgz#d94aa450e1b0df0451a2e938262234b534df9dfd"
+  dependencies:
+    lru-cache "^4.1.1"
+
 "@nuxtjs/icon@^1.1.2":
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/@nuxtjs/icon/-/icon-1.1.2.tgz#a70d05515f2ce7808db8ccf2e6dc0432523abe3f"
@@ -29,7 +35,7 @@
   version "1.5.3"
   resolved "https://registry.yarnpkg.com/@nuxtjs/meta/-/meta-1.5.3.tgz#9aa892d49de718ebf3f53198cb3b23b79ad0454a"
 
-"@nuxtjs/pwa@^1.1.1":
+"@nuxtjs/pwa@^1.0.2":
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/@nuxtjs/pwa/-/pwa-1.0.2.tgz#220bc3f33a2a19637fb66696d3842fc326390b29"
   dependencies:
