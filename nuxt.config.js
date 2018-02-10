@@ -1,10 +1,13 @@
 module.exports = {
-  loading: { color: '#005005', height:'10px' },
+  loading: { color: '#2e7d32', height:'10px' },
   modules: ["nuxtent", "nuxt-netlify-cms", '@nuxtjs/pwa',],
   manifest: {
     name: 'SM-Design.ro',
     lang: 'ro',   
-    description: 'SoulMatters Design it\'s a company that offers web design services. '
+    description: 'SoulMatters Design it\'s a company that offers web design services. ',
+    display: "standalone",
+    background_color: "#005005",
+
   },
    nuxtent: {
     content: [
