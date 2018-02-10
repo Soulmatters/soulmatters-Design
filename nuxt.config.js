@@ -55,9 +55,8 @@ module.exports = {
   plugins: ['~plugins/vuetify.js','~plugins/axios.js','~plugins/lazy.js'],
   build: {
    
-    publicPath: '/',
     vendor:['axios', 'vuetify'],
-    extractCSS: true,
+    extractCSS: false,
     
   },
   css: [
