@@ -57,6 +57,7 @@ module.exports = {
    
     vendor:['axios', 'vuetify'],
     extractCSS: false,
+    publicPath: '.nuxt'
     
   },
   css: [

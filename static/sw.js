@@ -1,76 +1,86 @@
-importScripts('/_nuxt/workbox.476439e0.js')
+importScripts('workbox-sw.prod.v1.3.0.js');
 
-const workboxSW = new self.WorkboxSW({
-  "cacheId": "sm-design",
-  "clientsClaim": true,
-  "directoryIndex": "/"
-})
-
-workboxSW.precache([
+/**
+ * DO NOT EDIT THE FILE MANIFEST ENTRY
+ *
+ * The method precache() does the following:
+ * 1. Cache URLs in the manifest to a local cache.
+ * 2. When a network request is made for any of these URLs the response
+ *    will ALWAYS comes from the cache, NEVER the network.
+ * 3. When the service worker changes ONLY assets with a revision change are
+ *    updated, old cache entries are left as is.
+ *
+ * By changing the file manifest manually, your users may end up not receiving
+ * new versions of files because the revision hasn't changed.
+ *
+ * Please use workbox-build or some other tool / approach to generate the file
+ * manifest which accounts for changes to local files and update the revision
+ * accordingly.
+ */
+const fileManifest = [
   {
     "url": "/_nuxt/admin/bundle.560482629560e637bc72.js",
     "revision": "d2ff3911b02ea07733e414435152bc74"
   },
   {
-    "url": "/_nuxt/app.983edfea1a22bc347820.js",
-    "revision": "a5f48d56e438a911c7a052e5e4699923"
-  },
-  {
-    "url": "/_nuxt/common.12e57f184621378fe777248a8cec4915.css",
-    "revision": "0df718155764f57d0a289b146e057166"
+    "url": "/_nuxt/app.dd5684acb4f88cc4ee2e.js",
+    "revision": "6cbb2335bb2c3caa377791d968038a7e"
   },
   {
     "url": "/_nuxt/common.7abe401a8730bac48dc4.js",
     "revision": "9f66be0adca896ccd1f95420c1733dbc"
   },
   {
-    "url": "/_nuxt/layouts/default.1cf29042ee95b358b081.js",
-    "revision": "123b27d99e36194628372ca786e063a1"
+    "url": "/_nuxt/layouts/default.9d7c0aa62c3c148e6828.js",
+    "revision": "8579e55dd7a5a8b3550b078f3d54c128"
   },
   {
-    "url": "/_nuxt/manifest.6a758603986aa9c3a289.js",
-    "revision": "e486b385001f7877c8c7fb76d5cae635"
+    "url": "/_nuxt/manifest.74139b5335b75d852df2.js",
+    "revision": "4cdf15474658ffca5b9adcfb87a6aab8"
   },
   {
-    "url": "/_nuxt/pages/_portfolio.18cad99fd20ca21b8594.js",
-    "revision": "7c0bb1e795cf040c09cda3be510ce4de"
+    "url": "/_nuxt/pages/_portfolio.7b8d285f479dbf85362e.js",
+    "revision": "008aee5836bf69e505b8e2d0fc8ad15f"
   },
   {
-    "url": "/_nuxt/pages/_post.ce8fda5fce883d442506.js",
-    "revision": "53dcd2dca11793553bedd220624c8e8f"
+    "url": "/_nuxt/pages/_post.a2059ad71ba8605e88fa.js",
+    "revision": "787ae4e08c4e5cab77785584c7585740"
   },
   {
-    "url": "/_nuxt/pages/blog.28bc66cbcbf207029496.js",
-    "revision": "9e9ddfbd4118456b25c28ebce66ea22a"
+    "url": "/_nuxt/pages/blog.40cfc24358cd4966134c.js",
+    "revision": "e125ea16fb5d93a70cceababe9ded992"
   },
   {
-    "url": "/_nuxt/pages/contact.2994c2d4d3b26c57892f.js",
-    "revision": "f00b8366d2db0382808c8441850bf591"
+    "url": "/_nuxt/pages/contact.ab7d2e6d225177a53d99.js",
+    "revision": "ca93d60be6f3791bdab02894435c0515"
   },
   {
-    "url": "/_nuxt/pages/how-do-we-work.005897cf283eef4402b8.js",
-    "revision": "9525d675fa420b9b6fc625b69b28bf05"
+    "url": "/_nuxt/pages/how-do-we-work.4f8cc9409ae95740bbdb.js",
+    "revision": "c610d0c4a18a8886edb8d27df45bc687"
   },
   {
-    "url": "/_nuxt/pages/index.375a96e1105981ec6dae.js",
-    "revision": "9c42cd6bbe949010c7c59ce33a65855e"
+    "url": "/_nuxt/pages/index.eaea776b14c3ca97ae7d.js",
+    "revision": "0cde04209f5e1f304a086dfe758f9af5"
   },
   {
-    "url": "/_nuxt/pages/portfolios.8e4f654af9734c610a8c.js",
-    "revision": "cf416e353883e5098881fca6bfa13c75"
+    "url": "/_nuxt/pages/portfolios.c4888aeb8bcb154fea15.js",
+    "revision": "2da8385c7e775099bce25abb62ef2d01"
   },
   {
-    "url": "/_nuxt/pages/team.58f214fcff8a61bec0d7.js",
-    "revision": "96efab4c11a21606e477009e3bd36fb7"
+    "url": "/_nuxt/pages/team.0b98f06a63d43c75a132.js",
+    "revision": "d60b2e0735623016d70a5a9ae614e03c"
   },
   {
-    "url": "/_nuxt/pages/thank-you.13c9353b3dda4ff8c2f0.js",
-    "revision": "6dd15ed4a26ed59c91f848a9af3bba19"
+    "url": "/_nuxt/pages/thank-you.26b2521de039c076e8f5.js",
+    "revision": "8a5e01df0594f4fc5d4090db48ae321a"
   }
-])
+];
 
-
-workboxSW.router.registerRoute(new RegExp('/_nuxt/.*'), workboxSW.strategies.cacheFirst({}), 'GET')
-
-workboxSW.router.registerRoute(new RegExp('/.*'), workboxSW.strategies.networkFirst({}), 'GET')
-
+const workboxSW = new self.WorkboxSW({
+  "cacheId": "sm-design_1.0.0",
+  "clientsClaim": true,
+  "directoryIndex": "/"
+});
+workboxSW.precache(fileManifest);
+workboxSW.router.registerRoute('/**', workboxSW.strategies.networkFirst({}), 'GET');
+workboxSW.router.registerRoute('/_nuxt/**', workboxSW.strategies.cacheFirst({}), 'GET');
