@@ -5,8 +5,8 @@ servicii:
   - serviciu: Online Store
   - serviciu: WooCommerce
   - serviciu: Material Design
-image: /static/uploads/hbcomputers.ro_(pc).png
-card: /static/uploads/hbcomputers.ro_(pc).png
-mockup: /static/uploads/hbcomputers.ro_(pc).png
+image: /static/uploads/hbcomputers_front.jpg
+card: /static/uploads/hbcomputers_card.jpg
+mockup: /static/uploads/hbcomputers_mockup.jpg
 ---
 **HbComputers.ro**

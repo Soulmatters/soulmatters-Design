@@ -10,6 +10,7 @@ servicii:
   - serviciu: Design
   - serviciu: Creare conținut
 image: /static/uploads/home-electric-intro.jpg
+card: /static/uploads/home-electric-card.jpg
 mockup: /static/uploads/home-electric-mockup.jpg
 ---
 **Home Electric** este un website ce oferă servicii de consultanță, proiectare și execuție în domeniul instalațiilor electrice. Pentru a fi la curent cu noile cerințe impuse de marile motoare de căutare, pagina web Home-electric.ro este **responsive** pentru toate dispozitivele mobile și ușor navigabilă.
