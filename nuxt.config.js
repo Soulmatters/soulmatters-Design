@@ -51,16 +51,7 @@ module.exports = {
   },
   plugins: ['~plugins/vuetify.js','~plugins/axios.js','~plugins/lazy.js'],
   build: {
-    extend (config, ctx) {
-      if (ctx.isClient) {
-        config.module.rules.push({
-          enforce: 'pre',
-          test: /\.(js|vue)$/,
-          loader: 'eslint-loader',
-          exclude: /(node_modules)/
-        })
-      }
-    },
+   
     publicPath: '/',
     vendor:['axios', 'vuetify'],
     extractCSS: true,
