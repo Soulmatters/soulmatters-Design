@@ -2,11 +2,7 @@
 <div id="body">
   <Toolbar>
   <nuxt/>
-   <v-footer class="pa-3 dark-bg">
-    <v-spacer></v-spacer>
-     <Social-icons/>
-    <div>© {{ new Date().getFullYear() }}</div>
-  </v-footer>
+<Footer/>
   </Toolbar>
 
 </div>
@@ -14,10 +10,12 @@
 <script>
 import Toolbar from '~/components/Toolbar.vue'
 import SocialIcons from '~/components/social/Social-icons.vue'
+import Footer from '~/components/Footer.vue'
 export default {
   components: {
     Toolbar,
-    SocialIcons
+    SocialIcons,
+    Footer
   }
 }
 </script>

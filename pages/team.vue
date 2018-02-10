@@ -46,6 +46,14 @@ We take care of creating the right image and functionality for every project and
   grid-gap: 20px;
 
 }
+@media (max-width:860px){
+  .grid{
+    grid-template-columns: 1fr;
+  }
+  .about-us{
+    grid-column: span 1 !important;
+  }
+}
 .white{
   background-color: #fff;
   color:#212121;
@@ -62,6 +70,7 @@ h3{
   max-width: 400px;
   background-color: #fff;
   justify-self: center;
+  margin:10px;
   
 }
 .social{
@@ -89,7 +98,7 @@ export default {
         {
           name:"Andra Niță",
           description: `My detail oriented skills have always been appreciated and were a great help to our team in every step of a project. I like to "code" web pages. It is a creative work that always come with new challenges. Also, I like to create written content for websites - adapting it to our client's requirements and optimizing search engine sites. I'll never stop earning because I'll never stop learning!`,
-          image:'https://source.unsplash.com/collection/138794/300x500/?woman',
+          image:'/uploads/andra.jpg',
           position: 'Fullstack developer, CEO',
           social: [
             {name:"facebook" , link:"https://www.facebook.com/soulmatters.ro", color:"#4267b2"},
@@ -101,7 +110,7 @@ export default {
           name:"Paul Cozma",
           description: `Web design is one of the most important areas I have chosen to pursue. It is an exciting domain, in a continuous evolution, which offers new perspectives for those who want to represent themselves in a professional manner.
 I can fulfill all my client's requirements in difficult projects. I help them in web design matters and putting all my soul for great results.`,
-          image:'https://source.unsplash.com/collection/138794/300x500/?man',
+          image:'/uploads/paul.jpg',
           position: 'Fullstack developer, co-founder',          
           social: [
             {name:"twitter" , link:"https://twitter.com/PaulSoulMatters", color:"#1da1f2"},

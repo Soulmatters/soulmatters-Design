@@ -11,7 +11,7 @@
         <v-card-title primary-title>
           <div>
             <h3 class="headline mb-0">{{ post.title }}</h3>
-            <div class="description"> {{ post.description.substring(0, 160) }}...</div>
+            <div class="description"> {{ post.description.substring(0, 200) }}...</div>
           </div>
         </v-card-title>
         <v-card-actions>

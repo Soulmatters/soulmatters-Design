@@ -1,53 +1,51 @@
 <template>
   <div>
-     <a target="_blank" :href="facebook.link"> <facebook :color="facebook.color" :height="facebook.height" :width="facebook.width"/></a>
-    <a target="_blank" :href="twitter.link">  <twitter :color="twitter.color" :height="twitter.height" :width="twitter.width"/></a>
-     <a target="_blank" :href="google.link">  <google :color="google.color" :height="google.height" :width="google.width"/></a>
-     <a target="_blank" :href="youtube.link">  <youtube :color="youtube.color" :height="youtube.height" :width="youtube.width"/></a>
+    <div v-for="item in social" :key="item.name">
+           <v-btn   fab  target="_blank" class="white primary-font" color="dark"  :href="item.link"> <v-icon class="icons"  :style="`color:${item.color}`">fa-{{item.name}}</v-icon></v-btn>
+   </div>
   </div>
 </template>
 <script>
-import facebook from "./facebook"
-import twitter from "./twitter"
-import google from "./google"
-import youtube from "./youtube"
+
 export default {
-  components:{
-      facebook,
-      twitter,
-      google,
-      youtube
-  },
+
   data(){
       return{
-        facebook: {
+      social:[
+         {
+        name: 'facebook',
         color: '#4267b2',
         height: 50,
         width: 50,
         link: "https://www.facebook.com/WebdesignSoulMatters/"
         },
-        twitter: {
+         {
+        name: 'twitter',
         color: '#1da1f2',
         height: 50,
         width: 50,
         link: "https://twitter.com/SMDesignRo"
         
         },
-        google: {
+         {
+        name: 'google',
         color: '#db4437',
         height: 50,
         width: 50,
         link: "https://plus.google.com/u/0/b/113546949216655460006/+Sm-designRo"
         
         },
-        youtube: {
+         {
+        name: 'youtube',
         color: '#fe0108',
         height: 50,
         width: 50,
         link: "https://www.youtube.com/c/Sm-designRo"
         
         }
+          ]
       }
+          
   }
 }
 </script>
@@ -55,8 +53,7 @@ export default {
 div{
     display: flex;
     flex-flow: wrap row;
+    justify-content: center;
 }
-div > * {
-    margin:10px;
-}
+
 </style>

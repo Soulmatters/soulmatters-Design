@@ -102,6 +102,7 @@
 h1{
   grid-area: title;
   justify-self: center;
+  color:#fff;
 
 }
 </style>

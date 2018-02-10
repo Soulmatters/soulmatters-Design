@@ -60,3 +60,10 @@
 .input-group__input{
     border-bottom:solid 1px #212121;
 }
+
+a,p,span,div,li{
+    font-family: var(--primary-font);
+}
+h1,h2,h3{
+    font-family: var(--secondary-font);
+}
