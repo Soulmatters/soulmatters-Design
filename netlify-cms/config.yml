@@ -1,7 +1,7 @@
 backend:
   name: github
   repo: Soulmatters/soulmatters-Design # Change to your repo
-  url: http://localhost:3000
+  url: https://beta.sm-design.ro
 
 media_folder: "static/uploads"
 
