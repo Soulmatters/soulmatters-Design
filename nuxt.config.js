@@ -9,6 +9,9 @@ module.exports = {
     background_color: "#005005",
 
   },
+  modifyUrlPrefix: {
+    '/': '/_nuxt/'
+  },
    nuxtent: {
     content: [
       ["posts", {
