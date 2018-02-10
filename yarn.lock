@@ -31,6 +31,12 @@
   dependencies:
     hash-sum "^1.0.2"
 
+"@nuxtjs/manifest@^2.1.0":
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/@nuxtjs/manifest/-/manifest-2.1.0.tgz#cd7ef157525c04f22286ce1de0b32aa7ad032fb7"
+  dependencies:
+    hash-sum "^1.0.2"
+
 "@nuxtjs/meta@^1.5.3":
   version "1.5.3"
   resolved "https://registry.yarnpkg.com/@nuxtjs/meta/-/meta-1.5.3.tgz#9aa892d49de718ebf3f53198cb3b23b79ad0454a"
