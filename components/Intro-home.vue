@@ -5,7 +5,7 @@
       <h2>Your web application is now accessible to over 5 billion devices</h2>
           <nuxt-link to="/"><v-btn round outline large class="btn" flat>Discover</v-btn></nuxt-link>
       </span>
-        <img v-lazy="image" alt="">
+        <img :src="image" alt="">
   </div>
 </template>
 <script>
