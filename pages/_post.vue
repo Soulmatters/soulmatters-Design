@@ -49,8 +49,7 @@ export default {
     max-width: 900px;
     margin:0 auto;
     align-self: flex-end;
-
-
+    width:100%;
   }
   #post{
     display: grid;
