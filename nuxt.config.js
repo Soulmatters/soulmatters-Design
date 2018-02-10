@@ -4,6 +4,7 @@ module.exports = {
   manifest: {
     name: 'SM-Design.ro',
     lang: 'ro',   
+    description: 'SoulMatters Design it\'s a company that offers web design services. '
   },
    nuxtent: {
     content: [
@@ -48,7 +49,7 @@ module.exports = {
   netlifyCms: {
     adminPath: "admin"
   },
-  plugins: ['~plugins/vuetify.js','~plugins/axios.js'],
+  plugins: ['~plugins/vuetify.js','~plugins/axios.js','~plugins/lazy.js'],
   build: {
     vendor:['axios', 'vuetify'],
     extractCSS: true,

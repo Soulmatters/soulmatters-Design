@@ -4,7 +4,7 @@
 <div id="grid">
 
 <nuxt-link :class="'items secondary-font'+ ' ' + 'grid-' + item.meta.index" :to="item.permalink" v-for="item in items" :key="item.title">
-  <img :src="item.card.replace(/static\//gi, '')" alt="">
+  <img v-lazy="item.card.replace(/static\//gi, '')" alt="">
   <h3>{{item.title}}</h3>
   <div class="border"></div>
   <div class="servicii">
@@ -18,7 +18,7 @@
 </template>
 <script>
 export default {
-  props:["items"]
+  props:["items"],
 }
 </script>
 

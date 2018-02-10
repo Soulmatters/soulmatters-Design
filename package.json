@@ -10,6 +10,8 @@
     "nuxtent": "latest",
     "stylus": "^0.54.5",
     "stylus-loader": "^3.0.1",
+    "vue-lazyload": "^1.2.0",
+    "vue-progressive-images": "^2.0.6",
     "vue2-google-maps": "^0.8.4",
     "vuetify": "^0.17.7"
   },

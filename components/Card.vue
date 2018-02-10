@@ -5,7 +5,8 @@
       <no-ssr>
       <nuxt-link :to="post.permalink" class="card-style">
       <v-card hover color="white" class="black--text">
-        <v-card-media   v-if="post.card !== undefined" :src="post.card.replace(/static\//gi, '')" height="300px">
+        <v-card-media>
+          <img :src="post.card.replace(/static\//gi, '')" height="300px" />
         </v-card-media>
         <v-card-title primary-title>
           <div>
