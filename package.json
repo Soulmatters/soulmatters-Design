@@ -5,9 +5,7 @@
   "dependencies": {
     "@nuxtjs/axios": "^4.3.0",
     "@nuxtjs/component-cache": "^1.1.1",
-    "@nuxtjs/manifest": "^2.1.0",
-    "@nuxtjs/offline": "^1.0.4",
-    "@nuxtjs/pwa": "^1.0.2",
+    "@nuxtjs/pwa": "2.0.5",
     "axios": "^0.17.1",
     "nuxt": "1.0.0-rc11",
     "nuxtent": "latest",
