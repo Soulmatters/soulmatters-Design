@@ -3,7 +3,7 @@
       <div class="grid">
         <div class="about-us primary-font">
                 <h1 class="secondary-font">{{team.title}}</h1>
-              	<div v-html="team.body" />
+              	<div class="article" v-html="team.body" />
         </div>
         <v-card class="items" v-for="item in team.team" :key="item.firstname">
           <v-card-media  height="500px" :src="item.image.replace(/static\//gi, '')"></v-card-media>
@@ -34,6 +34,9 @@
   margin: 40px auto;
   grid-gap: 20px;
 
+}
+.article{
+  font-size: 19px;
 }
 @media (max-width:860px){
   .grid{
