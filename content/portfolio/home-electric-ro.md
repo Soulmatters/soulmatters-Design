@@ -8,7 +8,7 @@ description: >-
 servicii:
   - serviciu: Jekyll
   - serviciu: Design
-  - serviciu: Creare conținut
+  - serviciu: Content writing
 image: /static/uploads/home-electric-intro.jpg
 card: /static/uploads/home-electric-card.jpg
 mockup: /static/uploads/home-electric-mockup.jpg
