@@ -93,6 +93,7 @@ collections: # A list of collections the CMS should be able to edit
             fields:
               - {label: "First Name", name: "firstname", widget: "string"}   
               - {label: "Last Name", name: "lastname", widget: "string"}   
+              - {label: "Description", name: "description", widget: "text"}   
               - {label: "Image", name: "image", widget: "image"}
               - label: "Social"
                 name: "social"
