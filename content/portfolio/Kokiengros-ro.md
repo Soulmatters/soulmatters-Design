@@ -7,9 +7,9 @@ description: >-
 
   Kokiengros.ro is created in Wordpress, is secured and it... sells!
 servicii:
-  - serviciu: Magazin online
+  - serviciu: Online store
   - serviciu: Design
-  - serviciu: Programare
+  - serviciu: Programming
 image: /static/uploads/kokiengros-intro.jpg
 card: /static/uploads/kokiengros-card.jpg
 mockup: /static/uploads/kokiengros-mockup.jpg
