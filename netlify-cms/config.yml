@@ -94,11 +94,11 @@ collections: # A list of collections the CMS should be able to edit
               - {label: "First Name", name: "firstname", widget: "string"}   
               - {label: "Last Name", name: "lastname", widget: "string"}   
               - {label: "Image", name: "image", widget: "image"}
-          - label: "Social"
-            name: "social"
-            widget: "list"
-            fields:
-              - {label: "Name", name: "name", widget: "string"}   
-              - {label: "Link", name: "link", widget: "string"}   
-              - {label: "Color", name: "color", widget: "string"}
-             
+              - label: "Social"
+                name: "social"
+                widget: "list"
+                fields:
+                  - {label: "Name", name: "name", widget: "string"}   
+                  - {label: "Link", name: "link", widget: "string"}   
+                  - {label: "Color", name: "color", widget: "string"}
+                
