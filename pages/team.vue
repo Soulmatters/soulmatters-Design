@@ -3,7 +3,7 @@
       <div class="grid">
         <div class="about-us primary-font">
                 <h1 class="secondary-font">{{team.title}}</h1>
-              <div>{{team.description}}</div>
+              	<div v-html="team.intro" />
         </div>
         <v-card class="items" v-for="item in team.team" :key="item.firstname">
           <v-card-media  height="500px" :src="item.image.replace(/static\//gi, '')"></v-card-media>
