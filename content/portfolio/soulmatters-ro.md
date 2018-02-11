@@ -1,10 +1,9 @@
 ---
 title: Soulmatters.ro
-description: >-
-  SoulMatters este un un blog personal, ce vă încurajează pe voi în a vă găsi
-  calea pe care o căutați și totodată să-i puteți ajuta și pe alții. Scrieți ce
-  simțiți, fiți așa cum vă doriți, trăiți, iubiți, iertați și bucurați-vă de tot
-  din jurul vostru.
+description: >
+  Soulmatters.ro is a personal blog that encourages you to find the way you are
+  looking for inner peace and at the same time to help others. Write what you
+  feel, be as you want, live, love, forgive and enjoy all around you.
 servicii:
   - serviciu: Design
   - serviciu: Ghost Blog
