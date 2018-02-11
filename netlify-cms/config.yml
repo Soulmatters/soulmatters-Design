@@ -82,12 +82,12 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Title, name: title, widget: string}
           - {label: Subtitle, name: subtitle, widget: string}
           - {label: Image, name: image, widget: image}
-          - {label: Intro, name: intro, widget: markdown}
       - file: "/content/pages/_team.md"
         label: "Team Page"
         name: "team"
         fields:
           - {label: Title, name: title, widget: string}
+          - {label: Intro, name: intro, widget: markdown}
           - label: "Team"
             name: "team"
             widget: "list"
