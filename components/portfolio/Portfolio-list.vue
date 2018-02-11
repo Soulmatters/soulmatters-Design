@@ -48,8 +48,10 @@ export default {
   background: var(--dark);  
 
 }
-@media(max-width:1000px){
-
+@media(min-width:1000px){
+.items{
+  min-width: 500px;
+}
 }
 .items{
   max-width: 500px;
