@@ -8,7 +8,7 @@
         <v-card class="items" v-for="item in team.team" :key="item.firstname">
           <v-card-media  height="500px" :src="item.image.replace(/static\//gi, '')"></v-card-media>
           <v-card-title primary-title>
-            <div>
+            <div class="name">
           <div class="primary-font headline ">{{item.firstname  + ' ' +item.lastname}}</div>
           <span class="gre--text">{{item.position}}</span>
           </div>
@@ -34,6 +34,9 @@
   margin: 40px auto;
   grid-gap: 20px;
 
+}
+.name{
+  margin-bottom: 20px;
 }
 .article{
   font-size: 19px;
