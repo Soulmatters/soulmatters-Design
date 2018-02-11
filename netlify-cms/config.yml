@@ -74,7 +74,7 @@ collections: # A list of collections the CMS should be able to edit
         fields:
           - {label: Title, name: title, widget: string}
           - {label: Subtitle, name: subtitle, widget: string}
-          - {label: Image, name: image, widget: markdown}
+          - {label: Body, name: body, widget: markdown}
       - file: "/content/pages/_blog.md"
         label: "Blog Page"
         name: "blog"
@@ -82,6 +82,23 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Title, name: title, widget: string}
           - {label: Subtitle, name: subtitle, widget: string}
           - {label: Image, name: image, widget: image}
-  
-            
+      - file: "/content/pages/_team.md"
+        label: "Team Page"
+        name: "team"
+        fields:
+          - {label: Title, name: title, widget: string}
+        - label: "Team"
+        name: "team"
+        widget: "list"
+        fields:
+          - {label: "First Name", name: "firstname", widget: "string"}   
+          - {label: "Last Name", name: "lastname", widget: "string"}   
+          - {label: "Image", name: "image", widget: "image"}
+        - label: "Social"
+        name: "social"
+        widget: "list"
+        fields:
+          - {label: "Name", name: "name", widget: "string"}   
+          - {label: "Link", name: "link", widget: "string"}   
+          - {label: "Color", name: "color", widget: "string"}
              
