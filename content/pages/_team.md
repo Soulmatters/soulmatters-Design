@@ -1,14 +1,7 @@
 ---
 title: Our team
 team:
-  - description: >-
-      My detail oriented skills have always been appreciated and were a great
-      help to our team in every step of a project. I like to "code" web pages.
-      It is a creative work that always come with new challenges. Also, I like
-      to create written content for websites - adapting it to our client's
-      requirements and optimizing search engine sites. I'll never stop earning
-      because I'll never stop learning!
-    firstname: Andra
+  - firstname: Andra
     image: /static/uploads/andra.jpg
     lastname: Niță
     position: Fullstack Dev / CEO
