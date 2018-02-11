@@ -2,7 +2,7 @@
 <div id="body">
   <Toolbar>
   <nuxt/>
-<Footer/>
+<Footer-wrapper/>
   </Toolbar>
 
 </div>
@@ -10,12 +10,12 @@
 <script>
 import Toolbar from '~/components/Toolbar.vue'
 import SocialIcons from '~/components/social/Social-icons.vue'
-import Footer from '~/components/Footer.vue'
+import FooterWrapper from '~/components/Footer-wrapper.vue'
 export default {
   components: {
     Toolbar,
     SocialIcons,
-    Footer
+    FooterWrapper
   }
 }
 </script>
