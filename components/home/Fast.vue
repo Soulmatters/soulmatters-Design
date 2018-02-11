@@ -3,7 +3,7 @@
     <span>
       <h2>We build fast and reliable applications</h2>
       <p>We focus on website's loading speed, especially on mobile devices, which are already over 50% of your future customers.</p>
-      <nuxt-link to="/"><v-btn round outline large class="btn" flat>Discover</v-btn></nuxt-link>
+      <nuxt-link to="/blog/2018/02/progressive-web-apps"><v-btn round outline large class="btn" flat>Discover</v-btn></nuxt-link>
     </span>
     <img v-lazy="image" alt="">
   </div>

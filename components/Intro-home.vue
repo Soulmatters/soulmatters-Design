@@ -3,7 +3,7 @@
       <span>
       <h1>SM-DESIGN</h1>
       <h2>Your web application is now accessible to over 5 billion devices</h2>
-          <nuxt-link to="/"><v-btn round outline large class="btn" flat>Discover</v-btn></nuxt-link>
+          <nuxt-link to="/blog/2018/02/progressive-web-apps"><v-btn round outline large class="btn" flat>Discover</v-btn></nuxt-link>
       </span>
         <img :src="image" alt="">
   </div>
