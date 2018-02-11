@@ -41,19 +41,18 @@ team:
         link: 'https://www.linkedin.com/in/paul-cozma-68420b89/'
         name: linkedin
 ---
-
 **SoulMatters Design** it's a company that offers web design services. 
 
 We use the latest technologies in web development and we successfully meet the most demanding requirements of our customers.
 
-In our opinion, the first impression matters and the soul as well - fact which it can be observed in our work. It's Soulmatters Design and we create web pages with a unique, functional and user-friendly design.
+In our opinion, the first impression matters and the soul as well - fact which it can be observed in our work. It's **Soulmatters Design** and we create web pages with a **unique**, **functional** and **user-friendly **design.
 
-We take care of creating the right image and functionality for every project and guiding our clients with valuable information.
+We take care of creating the right image and functionality for every project and guiding our **clients** with valuable information.
 
-In creating a website, our team use the latest web development technologies and this will drive our projects to new perspectives.
+In creating a website,** our team** use the latest web development technologies and this will drive our projects to new perspectives.
 
- Soulmaters Design is a company with a young team, which constantly want to bring good changes for world wide web. Our team is ready to courageously accept the new challenges in web development.
+**Soulmaters Design** is a company with a young team, which constantly want to bring good changes for world wide web. Our team is ready to courageously accept the new challenges in web development.
 
-Our team is extremely happy to "encode" a dream and then to reveal it as a successful website. Soulmatters Design is working with pleasure for it's customers and it's obtaining results through perseverence. 
+Our team is extremely happy to** "code"** a dream and then to reveal it as a successful website. **Soulmatters Design** is working with pleasure for it's customers and it's obtaining results through **perseverence**. 
 
-Now, among us, you can have a Web Progressive Application. Give to yourself a chance to have a performant website and the results won't be late.
+Now, among us, you can have a **Web Progressive Application**. Give to yourself a chance to have a **performant** website and the results won't be late.
