@@ -1,6 +1,12 @@
 ---
 title: Yves.fashion
-description: Yves
+description: >-
+  Yves.fashion
+
+
+  A well designed online store, created with many functionalities and optimized
+  to move fast. Of course, yves.fashion is a secured website with SSL and it is
+  hosted on reliable servers.
 servicii:
   - serviciu: Web Design
   - serviciu: Wordpress
