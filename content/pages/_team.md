@@ -16,8 +16,8 @@ team:
       - color: '#4267b2'
         link: 'https://www.facebook.com/soulmatters.ro'
         name: facebook
-      - color: '#4267b2'
-        link: 'https://www.facebook.com/soulmatters.ro'
+      - color: '#db4437'
+        link: 'https://plus.google.com/+AndraNitasoulmatters'
         name: google-plus
       - color: '#0077B5'
         link: 'https://www.linkedin.com/in/nita-andra/'
