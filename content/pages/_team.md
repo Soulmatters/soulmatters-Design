@@ -1,7 +1,7 @@
 ---
 title: Our team
 intro: >-
-  SoulMatters Design it's a company that offers web design services. 
+  **SoulMatters Design** it's a company that offers web design services. 
 
 
   We use the latest technologies in web development and we successfully meet the
