@@ -9,7 +9,7 @@ team:
       requirements and optimizing search engine sites. I'll never stop earning
       because I'll never stop learning!
     firstname: Andra
-    image: /static/uploads/andra.jpg
+    image: /static/uploads/img_20171022_132544.jpg
     lastname: Niță
     position: Fullstack Dev / CEO
     social:
