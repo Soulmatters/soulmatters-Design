@@ -28,7 +28,7 @@ div{
     justify-content: center;
     align-items: center;
     grid-gap: 20px;
-    width: 100%;
+    width: 100vw;
 }
 @media (min-width:1000px){
     div{

@@ -1,5 +1,5 @@
 <template>
-<vue-app app>
+<vue-app app id="app">
 
   <v-toolbar  
      
@@ -43,14 +43,20 @@
    <v-content id="scrolling-techniques">
       <slot />
   </v-content>
+  <Footer-wrapper/>
+
 </vue-app>
 </template>
 <script>
 import Logo from '~/components/Logo.vue'
+import FooterWrapper from '~/components/Footer-wrapper.vue'
+
 export default {
 
   components:{
-    Logo
+    Logo,
+        FooterWrapper
+
   },
   data () {
       return {
@@ -79,6 +85,9 @@ export default {
 </script>
 
 <style scoped>
+#app{
+  width: 100vw;
+}
    #drawer{
      z-index: 100;
    }
