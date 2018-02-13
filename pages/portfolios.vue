@@ -1,8 +1,8 @@
 <template>
-  <div>
+ 
       <Portfolio-list :items="portfolio"></Portfolio-list>
 
-  </div>
+  
 </template>
 <script>
 import PortfolioList from '~/components/portfolio/Portfolio-list.vue'

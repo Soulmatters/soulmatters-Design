@@ -1,5 +1,5 @@
 <template>
-  <div>
+  
       <div class="grid">
         <div class="about-us primary-font">
                 <h1 class="secondary-font">{{team.title}}</h1>
@@ -23,7 +23,7 @@
           </div>
         </v-card>
       </div>
-  </div>
+  
 </template>
 <style scoped>
 .grid{
@@ -33,6 +33,7 @@
   max-width: 1000px;
   margin: 40px auto;
   grid-gap: 20px;
+  width:100vw;
 
 }
 .name{

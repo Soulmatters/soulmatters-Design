@@ -46,6 +46,7 @@ export default {
 }
 #main{
   background: var(--dark);  
+  width:100vw;
 
 }
 @media(min-width:1000px){

@@ -76,6 +76,7 @@
     "title title title"
     ". form .";
     padding:20px;
+    width:100vw;
 }
 @media (max-width:931px){
   .grid{
