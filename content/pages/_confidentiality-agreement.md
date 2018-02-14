@@ -4,7 +4,7 @@ subtitle: Soulmatters Design protects your data and all sensitive informations!
 ---
 **Soulmatters Design protects your data and all sensitive informations!**
 
-**Before Contact us, the Client must read our **[**terms & conditions**](https://sm-design.ro/terms) **and **[**confidentiality**](https://sm-design.ro/confidentiality-agreement)** pages!**
+**Before Contact us, the Client must read our [**terms & conditions**](https://sm-design.ro/terms) and [**confidentiality**](https://sm-design.ro/confidentiality-agreement) pages!**
 
 **I.** **How does it work?**
 
