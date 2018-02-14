@@ -2,5 +2,4 @@
 # All paths
 /*
     # Block site from being framed with X-Frame-Options and CSP
-    Content-Security-Policy: frame-ancestors 'https://www.facebook.com/v2.12/plugins/customerchat.php?app_id=781092751983101&channel=https%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter%2Fr%2FlY4eZXm_YWu.js%3Fversion%3D42%23cb%3Df1368e5f00978cc%26domain%3Dsm-design.ro%26origin%3Dhttps%253A%252F%252Fsm-design.ro%252Ff25a1f0041e665c%26relation%3Dparent.parent&container_width=0&locale=en_US&logged_in_greeting=Welcome!&logged_out_greeting=Thank%20you%20for%20your%20visit!&page_id=781092751983101&sdk=joey&theme_color=%23212121'
-    X-Frame-Options: ALLOW
+    X-Frame-Options: SAMEORIGIN
