@@ -2,4 +2,4 @@
 # All paths
 /*
     # Block site from being framed with X-Frame-Options and CSP
-    X-Frame-Options: SAMEORIGIN
+    X-Frame-Options: ALLOW-FROM https://www.facebook.com
