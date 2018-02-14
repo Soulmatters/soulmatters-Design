@@ -30,12 +30,12 @@ Soulmatters Design protects your data and all sensitive informations!
 
 **3.** Our Client is agree with bank fees which results from transactions thru mobilePay.
 
-4. Technical Departament MOBILEPAY for Romania: \
+4. Technical Departament MOBILEPAY for Romania: 
                                          [implementare@mobilpay.ro ](implementare@mobilpay.ro)
 
-\    [contact@mobilpay.ro ](contact@mobilpay.ro)
+    [contact@mobilpay.ro ](contact@mobilpay.ro)
 
-\    [suport.mobilpay.ro ](suport.mobilpay.ro)
+    [suport.mobilpay.ro ](suport.mobilpay.ro)
 
  **IV.** **Responsabilty**
 
