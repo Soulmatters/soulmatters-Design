@@ -2,6 +2,17 @@
 title: 'Terms and conditions '
 subtitle: Terms
 ---
+SOULMATTERS DESIGN SRL-D
+Unique Reg. No: 35751973, VAT Reg No: RO37121567, EUID: ROONRC.J40/3208/2016 Trade Reg. No: J40/3208/2016, address: Spl. Independenței no 273, Bucharest, Romania.
+WHAT WE OFFER?
+We design and develop websites 
+- presentation website - online store
+What technically cand do: 
+install SSL Certificate - website code optimization - install service worker code for offline loading - configuring servers data for hosting and install domain name - install Wordpress modules and configure Woocommerce - install and configure Drupal.
+
+We create websites by using different libraries, frameworks. cms. We analyse the requests of our client and we give him the right information to take a decision.
+Soulmatters Design can't take the responsibility for client's decisions and we are not resonsable for the sales from Cliet's website oe other negative results!
+
 SM-DESIGN.RO makes the information on this website available for general information purposes but will try as far as possible as accurately as possible when published on the site.
 
 
@@ -92,7 +103,7 @@ USERS 'RIGHTS
 
 PAYMENT METHODS
 
-The Client has the posibility to pay our services by using MOBILEPAY. By using MOBILEPAY as method of payment, our client understands the extra fees which must be paid for this services. Transactions are available for the folowing cards: Visa, MasterCard. The transactions platform which: 3D Secure.
+The Client has the posibility to pay our services with MOBILEPAY. By using MOBILEPAY as method of payment, our client understands the extra fees which must be paid for this service. Transactions are available for the folowing cards: Visa, MasterCard. The transactions platform is: 3D Secure.
 
 PRICES
 Our prices are in national currency - RON. SOULMATTERS DESIGN is not registered as VAT payer. All prices communicated to client are the FINAL prices.
@@ -101,7 +112,7 @@ REFUND POLICY
 Within 30 calendar days from date of order.
 If the Client is not satisfied with our services, he can send a request at our Contact page and ask his money back. We check if the Client accomplish the conditions for refund
 
-The Client can't receive his money back for: fees of the domain registration, hosting services. We do not refund if have been delays from Client in putting all the neccessary data/materials for website construction or from other causes which is out of our control. Refund is not possible if our client requests a service which doesn't exist in our agreement. Also, once the website is ready, the Client can't request money back!
+The Client can't receive his money back for: fees of the domain registration, hosting services. We do not refund if have been delays from Client in putting all the neccessary data/materials for website construction or from other cause which is out of our control. Refund is not possible if our client requests an estra service which doesn't exist in our agreement. Also, once the website is ready, the Client can't request money back!
 
 
 CLOSING AGREEMENT
