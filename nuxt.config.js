@@ -1,6 +1,6 @@
 module.exports = {
   loading: { color: '#2e7d32', height:'10px' },
-  modules: [ '@nuxtjs/pwa','@nuxtjs/component-cache', "nuxtent", "nuxt-netlify-cms"  ],
+  modules: [ '@nuxtjs/pwa','@nuxtjs/component-cache', "nuxtent", "nuxt-netlify-cms",'@nuxtjs/sitemap'  ],
   manifest: {
     name: 'SM-Design.ro',
     lang: 'ro',   
@@ -11,6 +11,17 @@ module.exports = {
   },
   modifyUrlPrefix: {
     '/': '/_nuxt/'
+  },
+  sitemap: {
+    path: '/sitemap.xml',
+    hostname: 'https://sm-design.ro',
+    cacheTime: 1000 * 60 * 15,
+    generate: true, // Enable me when using nuxt generate
+    exclude: [
+      '/secret',
+      '/admin/**'
+    ]
+    
   },
    nuxtent: {
     content: [

@@ -6,6 +6,7 @@
     "@nuxtjs/axios": "^4.3.0",
     "@nuxtjs/component-cache": "^1.1.1",
     "@nuxtjs/pwa": "2.0.5",
+    "@nuxtjs/sitemap": "^0.0.3",
     "axios": "^0.17.1",
     "nuxt": "1.0.0-rc11",
     "nuxtent": "latest",
