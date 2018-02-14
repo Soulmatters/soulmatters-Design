@@ -4,20 +4,25 @@ subtitle: Terms
 ---
 SOULMATTERS DESIGN SRL-D
 Unique Reg. No: 35751973, VAT Reg No: RO37121567, EUID: ROONRC.J40/3208/2016 Trade Reg. No: J40/3208/2016, address: Spl. Independenței no 273, Bucharest, Romania.
+
 WHAT WE OFFER?
+
 We design and develop websites 
-- presentation website - online store
-What technically cand do: 
-install SSL Certificate - website code optimization - install service worker code for offline loading - configuring servers data for hosting and install domain name - install Wordpress modules and configure Woocommerce - install and configure Drupal.
+- presentation website - online store - optimizing services
+
+What we can do technically:
+ 
+install SSL Certificate - website code optimization - install service worker code for offline loading - configuring servers data for hosting and install domain name - install Wordpress modules and configure Woocommerce - install and configure Drupal or other cms platforms.
 
 We create websites by using different libraries, frameworks. cms. We analyse the requests of our client and we give him the right information to take a decision.
-Soulmatters Design can't take the responsibility for client's decisions and we are not resonsable for the sales from Cliet's website oe other negative results!
+
+Soulmatters Design can't take the responsibility for client's decisions and we are not responsible for the sales from Cliet's website or other negative results!
 
 SM-DESIGN.RO makes the information on this website available for general information purposes but will try as far as possible as accurately as possible when published on the site.
 
 
 
-SM-DESIGN.RO
+SM-DESIGN.RO RULES
 
 \- can not be held liable in any way for the loss or damage that anyone may suffer as a result of using in any way the information provided on this website.
 
@@ -93,9 +98,8 @@ ARE FORBIDDEN
 
 USERS 'RIGHTS
 
-\- will be notified of any changes to the privacy policy and we will also respond to their requests for referral to the site.
 
-\- they can unsubscribe using the link at the bottom of each email and can ask for their account to be removed from the site at any time.
+\- they can ask to delete their data
 
 \- can change browser settings for how Google advertises.
 
