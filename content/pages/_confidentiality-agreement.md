@@ -4,7 +4,7 @@ subtitle: Soulmatters Design protects your data and all sensitive informations!
 ---
 **Soulmatters Design protects your data and all sensitive informations!**
 
-**Before Contact us, The Client read our**[** terms & conditions**](https://sm-design.ro/terms)** and **[**confidentiality **](https://sm-design.ro/confidentiality-agreement)**pages**
+**Before Contact us, the Client must read our**[** terms & conditions**](https://sm-design.ro/terms)** and **[**confidentiality **](https://sm-design.ro/confidentiality-agreement)**pages!**
 
 **I.** **How does it work?**
 
@@ -12,9 +12,9 @@ subtitle: Soulmatters Design protects your data and all sensitive informations!
 
 **2.**  Providing those informations, the Client is agree that Soulmatters Design will contact him back. If the Client is agree with our offer, the conversations thru e-mail will be continued in order to establish the next steps for creating his website.  We ensure our Client about the confidentiality of e-mail address and the content of it!
 
-**3.**  After client took notice about our Confidentiality informations, Terms & Conditions and he accepted our offer and he wants a website created by Soulmatters Design, he must provide some information:
+**3.**  After client took notice about our Confidentiality informations, Terms & Conditions and he accepted our offer, he must provide some information:
 
-\- If it is a company: company name, phone number, Tax number, Vat number, company address, EUID
+\- If it is a company: company name, phone number, Tax number, Vat number, company address, EUID and a contact name.
 
 \- if it is an individual person, we will require: Name, address, e-mail. Also IBAN number if it's the case. Having IBAN number Soulmatters Design Srl-d can give back the money if the Client is unsatisfied about our services.
 
@@ -22,9 +22,9 @@ subtitle: Soulmatters Design protects your data and all sensitive informations!
 
  **1**. Informations from:
 
- **art.I.2** are required to establish a contact with our Client and send to him the offer he requested.
+\-  **art.I.2** are required to establish a contact with our Client and send to him the offer he requested.
 
- **art.I.3** are required in order to sent to our Client the invoice for our services and to offer a quick response to his requests. Information about name, e-mail will not be used for marketing purposes. The Client, also has the posibility to send a request to us to delete his informations!
+\- **art.I.3** are required in order to sent to our Client the invoice for our services and to offer a quick response to his requests. Information about name, e-mail will not be used for marketing purposes. The Client, also has the posibility to send a request to us to delete his informations! We keep his informations as long is neccessary to communicate with him about website execution steps.
 
 **2.** Soulmatters Design Srl-d will send to the Client an invoice. The Client has the opportunity to use mobilepay. In our invoices we offer a link where Client can pay using mobilePay and it is a secure method of payment which use 3D Secure transaction platform.
 
