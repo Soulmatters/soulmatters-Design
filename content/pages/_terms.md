@@ -8,10 +8,11 @@ Unique Reg. No: 35751973, VAT Reg No: RO37121567, EUID: ROONRC.J40/3208/2016 Tra
 WHAT WE OFFER?
 
 We design and develop websites 
-- presentation website - online store - optimizing services
+
+* presentation website - online store - optimizing services
 
 What we can do technically:
- 
+
 install SSL Certificate - website code optimization - install service worker code for offline loading - configuring servers data for hosting and install domain name - install Wordpress modules and configure Woocommerce - install and configure Drupal or other cms platforms.
 
 We create websites by using different libraries, frameworks. cms. We analyse the requests of our client and we give him the right information to take a decision.
@@ -20,8 +21,6 @@ Soulmatters Design can't take the responsibility for client's decisions and we a
 
 SM-DESIGN.RO makes the information on this website available for general information purposes but will try as far as possible as accurately as possible when published on the site.
 
-
-
 SM-DESIGN.RO RULES
 
 \- can not be held liable in any way for the loss or damage that anyone may suffer as a result of using in any way the information provided on this website.
@@ -29,8 +28,6 @@ SM-DESIGN.RO RULES
 \- does not warrant in any way the accuracy, utility or completeness of the information or materials contained in this site.
 
 \- does not guarantee the results that may be obtained from the use of the information submitted through this site and the availability to use any information mentioned on the site.
-
-
 
 GENERAL RULES
 
@@ -98,7 +95,6 @@ ARE FORBIDDEN
 
 USERS 'RIGHTS
 
-
 \- they can ask to delete their data
 
 \- can change browser settings for how Google advertises.
@@ -114,14 +110,13 @@ Our prices are in national currency - RON. SOULMATTERS DESIGN is not registered 
 
 REFUND POLICY
 Within 30 calendar days from date of order.
-If the Client is not satisfied with our services, he can send a request at our Contact page and ask his money back. We check if the Client accomplish the conditions for refund
+If the Client is not satisfied with our services, he can send a request at our [Contact](https://sm-design.ro/contact) page and ask his money back. We check if the Client accomplish the conditions for refund.
 
-The Client can't receive his money back for: fees of the domain registration, hosting services. We do not refund if have been delays from Client in putting all the neccessary data/materials for website construction or from other cause which is out of our control. Refund is not possible if our client requests an estra service which doesn't exist in our agreement. Also, once the website is ready, the Client can't request money back!
-
+The Client can't receive his money back for: fees of the domain registration, hosting services. We do not refund if have been delays from Client in putting all the neccessary data/materials for website construction or from other cause which is out of our control. Refund is not possible if our client requests an extra service which doesn't exist in our agreement. Also, once the website is ready, the Client can't request his money back!
 
 CLOSING AGREEMENT
 
 SM-DESIGN.RO reserves the right to change the terms, conditions and policies at any time, without prior notice. Therefore, please check this section regularly to keep up with the changes made.
 
 SOULMATTERS DESIGN SRL-D\
-Unique Reg. No: 35751973, VAT Reg No: RO37121567, EUID: ROONRC.J40/3208/2016 Trade Reg. No: J40/3208/2016, address: Spl. Independenței no 273, Bucharest, Romania.
+Unique Reg. No: 35751973, VAT Reg No: RO37121567, EUID: ROONRC.J40/3208/2016 Trade Reg. No: J40/3208/2016, address: Spl. Independenței no 273, Bucharest, Romania, email: contact@sm-design.ro, Phone no: +40727.472.226
