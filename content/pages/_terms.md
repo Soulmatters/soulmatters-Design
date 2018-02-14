@@ -92,7 +92,17 @@ USERS 'RIGHTS
 
 PAYMENT METHODS
 
-The Client has the posibility to pay our services by using MOBILEPAY. By using MOBILEPAY as method of payment, our client understands the extra taxes which must be paid for this services
+The Client has the posibility to pay our services by using MOBILEPAY. By using MOBILEPAY as method of payment, our client understands the extra fees which must be paid for this services. Transactions are available for the folowing cards: Visa, MasterCard. The transactions platform which: 3D Secure.
+
+PRICES
+Our prices are in national currency - RON. SOULMATTERS DESIGN is not registered as VAT payer. All prices communicated to client are the FINAL prices.
+
+REFUND POLICY
+Within 30 calendar days from date of order.
+If the Client is not satisfied with our services, he can send a request at our Contact page and ask his money back. We check if the Client accomplish the conditions for refund
+
+The Client can't receive his money back for: fees of the domain registration, hosting services. We do not refund if have been delays from Client in putting all the neccessary data/materials for website construction or from other causes which is out of our control. Refund is not possible if our client requests a service which doesn't exist in our agreement. Also, once the website is ready, the Client can't request money back!
+
 
 CLOSING AGREEMENT
 
