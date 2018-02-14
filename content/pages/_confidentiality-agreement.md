@@ -30,7 +30,7 @@ Soulmatters Design protects your data and all sensitive informations!
 
 **3.** Our Client is agree with bank fees which results from transactions thru mobilePay.
 
-**4.** Technical Departament MOBILEPAY for Romania: \
+4. Technical Departament MOBILEPAY for Romania: \
                                          [implementare@mobilpay.ro ](implementare@mobilpay.ro)
 
 \    [contact@mobilpay.ro ](contact@mobilpay.ro)
@@ -45,4 +45,4 @@ Soulmatters Design protects your data and all sensitive informations!
 
 **SOULMATTERS DESIGN SRL-D is a company which creates online stores and presentation sites and we preserve the right to choose our customers and refuse some.**
 
-**Cases: if the Client will not communicate properly with us(bad words an attitude or providing incorrect informations in order to complete our task etc)**
+**Cases: if the Client will not communicate properly with us(bad words and attitude or providing incorrect informations in order to complete our task etc)**
