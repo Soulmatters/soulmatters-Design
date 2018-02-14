@@ -43,4 +43,6 @@ implementare@mobilpay.ro ](implementare@mobilpay.ro)
 
 **V. Other informations:**
 
-**SOULMATTERS DESIGN SRL-D is a company which creates online stores and presentation sites and we preserve our right to choose our customers and refuse some, if they not communicate properly with us!**
+**SOULMATTERS DESIGN SRL-D is a company which creates online stores and presentation sites and we preserve the right to choose our customers and refuse some.**
+
+**Cases: if they not communicate properly with us(bad words an attitude or providing incorrect informations in order to complete our task etc)**
