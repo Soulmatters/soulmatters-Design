@@ -4,9 +4,9 @@ subtitle: Soulmatters Design protects your data and all sensitive informations!
 ---
 Soulmatters Design protects your data and all sensitive informations!
 
-How does it work?
+**How does it work?**
 
-1. Our Client contact us for an offer. He can access the Contact Page where will be required his email address and his name.
+1. The Client contact us for an offer. He can access the Contact Page where will be required his email address and his name.
 
 2.  Providing those informations the Client is agree that Soulmatters Design will contact him back and with our terms and polycies. If the Client is agree with our offer, the conversations thru e-mail will be continued in order to establish the next steps for create his website.  We ensure our Client about the confidentiality of e-mail address and the content of it!
 
