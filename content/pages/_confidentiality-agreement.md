@@ -41,10 +41,10 @@ subtitle: Soulmatters Design protects your data and all sensitive informations!
 
  [](implementare@mobilpay.ro)**IV.** **Responsabilty**
 
-**6.** SOULMATTERS DESIGN SRL-D is not responsable for informations provided by Client. The Client has the responsability to offer correct informations in order to complete the task and delivering the website. The Client will communicate the correct information required by us in order to send the invoice to him!
+**6.** SOULMATTERS DESIGN SRL-D is not responsible for informations provided by Client. The Client has the responsibility to offer correct informations in order to complete the task and delivering the website to him. The Client will communicate the correct information required by us in order to send the invoice to him! In other case, we are not responsible for the consequences.
 
 **V. Other informations:**
 
 **SOULMATTERS DESIGN SRL-D is a company which creates online stores and presentation sites and we preserve the right to choose our customers and refuse some.**
 
-**Cases: if they not communicate properly with us(bad words an attitude or providing incorrect informations in order to complete our task etc)**
+**Cases: if the Client will not communicate properly with us(bad words an attitude or providing incorrect informations in order to complete our task etc)**
