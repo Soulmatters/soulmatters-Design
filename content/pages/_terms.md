@@ -23,7 +23,7 @@ SM-DESIGN.RO makes the information on this website available for general informa
 
 SM-DESIGN.RO RULES
 
-\- can not be held liable in any way for the loss or damage that anyone may suffer as a result of using in any way the information provided on this website.
+\- cannot be held liable in any way for the loss or damage that anyone may suffer as a result of using in any way the information provided on this website.
 
 \- does not warrant in any way the accuracy, utility or completeness of the information or materials contained in this site.
 
