@@ -4,7 +4,7 @@ subtitle: Soulmatters Design protects your data and all sensitive informations!
 ---
 **Soulmatters Design protects your data and all sensitive informations!**
 
-**Before Contact us, the Client must read our**[** terms & conditions**](https://sm-design.ro/terms)** and **[**confidentiality **](https://sm-design.ro/confidentiality-agreement)**pages!**
+**Before Contact us, the Client must read our **[**terms & conditions**](https://sm-design.ro/terms) **and **[**confidentiality**](https://sm-design.ro/confidentiality-agreement)** pages!**
 
 **I.** **How does it work?**
 
@@ -37,9 +37,7 @@ subtitle: Soulmatters Design protects your data and all sensitive informations!
 
 \    [suport.mobilpay.ro ](suport.mobilpay.ro)
 
-
-
- [](implementare@mobilpay.ro)**IV.** **Responsabilty**
+ **IV.** **Responsabilty**
 
 **6.** SOULMATTERS DESIGN SRL-D is not responsible for informations provided by Client. The Client has the responsibility to offer correct informations in order to complete the task and delivering the website to him. The Client will communicate the correct information required by us in order to send the invoice to him! In other case, we are not responsible for the consequences.
 
