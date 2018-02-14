@@ -119,6 +119,7 @@ export default {
           { title: 'Contact',  link:'/contact' },
           { title: 'Blog',  link:'/blog' },
           { title: 'Terms and conditions',  link:'/terms' },
+          { title: 'Confidentiality agreement',  link:'/confidentiality-agreement' },
         ]
       }
   }
