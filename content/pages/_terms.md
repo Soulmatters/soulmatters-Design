@@ -107,19 +107,23 @@ You can choose to be notified each time a cookie is sent or you can choose to di
 
 The Client has the posibility to pay our services with MOBILEPAY. By using MOBILEPAY as method of payment, our client understands the extra fees which must be paid for this service. Transactions are available for the folowing cards: Visa, MasterCard. The transactions platform is: 3D Secure.
 
-**PRICES**\
+**PRICES**
 
 Our prices are in national currency - RON. SOULMATTERS DESIGN is not registered as VAT payer in Romania. All prices communicated to client are the FINAL prices. For EU transactions SOULMATTERS DESIGN have EUID and a VAT number according to EU laws. In this case, our client will also know our final price for web design services.
 
-**REFUND POLICY**\
-**
-**We check if the Client accomplish the conditions for refund.
+**REFUND POLICY**
+
+We check if the Client accomplish the conditions for refund.
 
 The Client can't receive his money back for: fees of the domain registration, hosting services. We do not refund if have been delays from Client in putting all the neccessary data/materials for website construction/server, domain access  or from other cause which is out of our control. Refund is not possible if our client requests an extra service which doesn't exist in our agreement. Also, once the website is ready, the Client can't request his money back!
 
+**ACCESS**
+
+On https://sm-design.ro are not allowed to ask for our services, the persons under 18 years, without written consent of parents/legal guardian.
+
 **CLOSING AGREEMENT**
 
-SM-DESIGN.RO reserves the right to change the terms, coditions and policies at any time, without prior notice. Therefore, please check this section regularly to keep up with the changes made.
+SM-DESIGN.RO reserves the right to change the terms, conditions and policies at any time, without prior notice. Therefore, please check this section regularly to keep up with the changes made.
 
 **SOULMATTERS DESIGN SRL-D**\
 Unique Reg. No: 35751973, VAT Reg No: RO37121567, EUID: ROONRC.J40/3208/2016 Trade Reg. No: J40/3208/2016, address: Spl. Independenței no 273, Bucharest, Romania, email: contact@sm-design.ro, Phone no: +40727.472.226
