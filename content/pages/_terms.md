@@ -109,7 +109,9 @@ The Client has the posibility to pay our services with MOBILEPAY. By using MOBIL
 
 **PRICES**
 
-Our prices are in national currency - RON. SOULMATTERS DESIGN is not registered as VAT payer in Romania. All prices communicated to client are the FINAL prices. For EU transactions SOULMATTERS DESIGN have EUID and a VAT number according to EU laws. In this case, our client will also know our final price for web design services.
+Our prices are in national currency - RON. SOULMATTERS DESIGN is not registered as VAT payer in Romania. All prices communicated to client are the FINAL prices.
+
+For customers located in the intra-Community area, SOULMATTERS DESIGN have EUID and a VAT number. In this case, our client will also know our final price which will be communicated in Euro.
 
 **REFUND POLICY**
 
