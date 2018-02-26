@@ -16,26 +16,28 @@ Soulmatters Design protects your data and all sensitive informations!
 
 \- If it is a company: company name, phone number, Tax number, Vat number, company address, EUID and a contact name.
 
-\- if it is an individual person, we will require: Name, address, e-mail. Also IBAN number if it's the case. Having IBAN number Soulmatters Design Srl-d can give back the money if the Client is unsatisfied about our services.
+\- if it is an individual person, we will require: Name, address, e-mail and phone no if is the case.
 
 **II. Informations gathered**
 
  **1**. Informations from:
 
-\-  **art.I.2** are required to establish a contact with our Client and send to him the offer he requested.
+\-  **art.I.2** are required in order to establish a contact with our Client and send to him the offer he requested.
 
-\- **art.I.3** are required in order to sent to our Client the invoice for our services and to offer a quick response to his requests. Information about name, e-mail will not be used for marketing purposes. The Client, also has the posibility to send a request to us to delete his informations! We keep his informations as long is neccessary to communicate with him about website execution steps.
+\- **art.I.3** are required in order to sent to our Client the invoice for our services and to offer a quick response to his requests. Information about name, e-mail, address, phone no. will not be used for marketing purposes. The Client, also has the posibility to send a request to us to delete his informations! We keep his informations as long is neccessary to communicate with him about website execution steps and payment confirmation for our services.
 
 **2.** Soulmatters Design Srl-d will send to the Client an invoice. The Client has the opportunity to use mobilePay. In our invoices we offer a link where Client can pay using mobilePay and it is a secure method of payment which use 3D Secure transaction platform.
 
 **3.** Our Client is agree with bank fees which results from transactions thru mobilePay.
 
-4. Technical Departament MOBILEPAY for Romania: 
-                                         [implementare@mobilpay.ro ](implementare@mobilpay.ro)
+**4. **Technical Departament MOBILEPAY for Romania: 
 
-    [contact@mobilpay.ro ](contact@mobilpay.ro)
 
-    [suport.mobilpay.ro ](suport.mobilpay.ro)
+[implementare@mobilpay.ro ](implementare@mobilpay.ro) 
+
+[contact@mobilpay.ro ](contact@mobilpay.ro)
+
+[suport.mobilpay.ro ](suport.mobilpay.ro)
 
  **IV.** **Responsibility**
 
